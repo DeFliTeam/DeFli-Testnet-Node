@@ -6,14 +6,20 @@
 
 ### Usage
 
-1. sudo git clone 
+1. Clone and set .env parameters
 
+```bash
+sudo git clone https://github.com/DeFliTeam/DeFli-Testnet-Node.git
+```
+
+```bash
+cd node/
+```
 
 ```bash
 export CONDUIT_NETWORK=defli-chain-01-jerg8a427n
 ```
 
-Note: The external nodes feature must be enabled on the network for this to work. For the public networks above this is already set.
 
 2. Download the required network configuration with:
 

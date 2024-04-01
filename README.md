@@ -6,10 +6,9 @@
 
 ### Usage
 
-1. Select the network you want to run and set `CONDUIT_NETWORK` env variable. You will need to know the `slug` of the network. You can find this in the Conduit console. For public networks you can use the table above. Example:
+1. sudo git clone 
 
-```
-# for Mode Mainnet
+
 ```bash
 export CONDUIT_NETWORK=defli-chain-01-jerg8a427n
 ```

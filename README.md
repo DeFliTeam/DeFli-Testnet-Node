@@ -24,14 +24,21 @@ export CONDUIT_NETWORK=defli-chain-01-jerg8a427n
 2. Download the required network configuration with:
 
 ```bash
-sudo ./download-config.py $CONDUIT_NETWORK=defli-chain-01-jerg8a427n
+sudo ./download-config.py $CONDUIT_NETWORK
 ```
 
 3. Copy files
 
 ```bash
-cp .env.example.celestia .env
+cp .env.example .env
 ```
+Set the parameter OP_NODE_L1_ETH_RPC to
+```bash
+OP_NODE_L1_ETH_RPC=https://eth.nownodes.io/9007019c-841a-408b-9852-391f826db73e
+```
+Set the parameter OP_NODE_L1_ETH_RPC to 
+```bash
+OP_NODE_L1_BEACON=https://eth.nownodes.io/9007019c-841a-408b-9852-391f826db73e
 
 4. Start the node!
 
@@ -40,9 +47,6 @@ docker compose up --build
 ```
 
 
-```bash
-docker compose -f docker-compose.celestia.yml up --build
-```
 
 5. You should now be able to `curl` your Conduit node:
 

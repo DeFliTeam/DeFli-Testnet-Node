@@ -39,6 +39,7 @@ OP_NODE_L1_ETH_RPC=https://eth.nownodes.io/9007019c-841a-408b-9852-391f826db73e
 Set the parameter OP_NODE_L1_ETH_RPC to 
 ```bash
 OP_NODE_L1_BEACON=https://eth.nownodes.io/9007019c-841a-408b-9852-391f826db73e
+```
 
 4. Start the node!
 

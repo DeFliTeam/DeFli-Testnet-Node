@@ -17,7 +17,7 @@ cd node/
 ```
 
 ```bash
-export CONDUIT_NETWORK=defli-chain-01-jerg8a427n
+export CONDUIT_NETWORK=mode-mainnet-0
 ```
 
 
